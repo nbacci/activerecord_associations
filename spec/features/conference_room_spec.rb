@@ -2,7 +2,6 @@ require 'spec_helper'
 
 feature "Conference Room reservations" do
   scenario "Can see the meetings with their times for a conference room" do
-    pending "Do me thrid"
     conference_room = ConferenceRoom.create!(name: "Boulder West")
     ipm = Meeting.create!(name: "gSchool IPM")
     book_club = Meeting.create!(name: "Book Club")

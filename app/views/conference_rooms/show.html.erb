@@ -1,6 +1,6 @@
 <ul class="reservations">
   <% @conference_room.reservations.each do |reservation| %>
-      <li><%= reservation.starts_at.strftime("%F") %></li>
+  <li><%= reservation.starts_at.strftime("%F") %></li>
   <% end %>
 </ul>
 
